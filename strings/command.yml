@@ -1,1 +1,100 @@
+# Bot Commands
+PING_COMMAND : ["ping"]
+START_COMMAND : ["start"]
+HELP_COMMAND : ["help","yardim"]
+SETTINGS_COMMAND : ["settings", "setting","ayarlar"]
+RELOAD_COMMAND : ["admincache", "reload","yenile"]
+GSTATS_COMMAND : ["gstats"]
+STATS_COMMAND : ["stats"]
+LANGUAGE_COMMAND : ["lang", "language", "langs","dil"]
 
+# Play Commands
+PLAY_COMMAND : ["play", "oynat", "vplay", "voynat", "cplay", "cvplay", "coynat", "cvoynat", "playforce", "vplayforce", "cplayforce", "cvplayforce"]
+PLAYMODE_COMMAND : ["playmode","mod"]
+CHANNELPLAY_COMMAND : ["channelplay"]
+STREAM_COMMAND : ["stream", "cstream", "streamforce"]
+
+#Playlists Command
+PLAYLIST_COMMAND : ["playlist", "favori"]
+DELETEPLAYLIST_COMMAND : ["deleteplaylist", "silfavori"]
+
+
+# Tools
+QUEUE_COMMAND : ["queue","cqueue", "player", "cplayer", "playing", "cplaying", "liste"]
+SONG_COMMAND : ["song", "video", "vsong", "bul", "vbul"]
+LYRICS_COMMAND : ["lyrics"]
+
+
+# Admin Commands
+AUTH_COMMAND : ["auth", "ver"]
+UNAUTH_COMMAND : ["unauth", "al"]
+AUTHUSERS_COMMAND : ["authusers", "yetkili"]
+PAUSE_COMMAND : ["pause", "cpause", "durdur"]
+RESUME_COMMAND : ["resume", "cresume", "devam"]
+MUTE_COMMAND : ["mute", "cmute", "sessiz"]
+UNMUTE_COMMAND : ["unmute", "cunmute", "sesli"]
+STOP_COMMAND : ["stop", "end", "cstop", "cend", "son", "bitir"]
+SKIP_COMMAND : ["skip", "cskip", "atla"]
+SHUFFLE_COMMAND : ["shuffle", "cshuffle", "karıştır"]
+LOOP_COMMAND : ["loop", "cloop", "tekrar"]
+SEEK_COMMAND : ["seek", "cseek", "seekback", "cseekback", "ilerisar", "gerisar"]
+RESTART_COMMAND : ["reboot", "yenidenbaslat"]
+
+# Sudo Users Commaands
+
+# Sudo Command
+ADDSUDO_COMMAND : ["addsudo"]
+DELSUDO_COMMAND : ["delsudo", "rmsudo"]
+SUDOUSERS_COMMAND : ["sudolist", "listsudo"]
+
+#Broadcast 
+BROADCAST_COMMAND : ["broadcast", "gcast", "reklam"]
+
+#Blacklist chat
+BLACKLISTCHAT_COMMAND : ["blacklistchat", "blchat"]
+WHITELISTCHAT_COMMAND : ["whitelistchat", "unblchat"]
+BLACKLISTEDCHAT_COMMAND : ["blacklistedchat"]
+
+# Video Calls Command
+VIDEOLIMIT_COMMAND : ["set_video_limit"]
+VIDEOMODE_COMMAND : ["videomode"]
+
+#Mantenance
+MAINTENANCE_COMMAND : ["maintenance"]
+LOGGER_COMMAND : ["logger"]
+
+#Heroku
+GETLOG_COMMAND : ["get_log", "logs", "getlog", "log"]
+GETVAR_COMMAND : ["get_var", "getvar", "showvar"]
+DELVAR_COMMAND : ["del_var", "delvar"]
+SETVAR_COMMAND : ["set_var", "setvar", "addvar"]
+USAGE_COMMAND : ["usage"]
+VARS_COMMAND : ["vars", "config"]
+
+
+#Basic Bot Commands
+UPDATE_COMMAND : ["update"]
+REBOOT_COMMAND : ["restart"]
+AUTOEND_COMMAND : ["autoend"]
+
+#Private Bot Mode
+AUTHORIZE_COMMAND : ["authorize"]
+UNAUTHORIZE_COMMAND : ["unauthorize"]
+AUTHORIZED_COMMAND : ["authorized"]
+
+#Block Users Command
+BLOCK_COMMAND : ["block"]
+UNBLOCK_COMMAND : ["unblock"]
+BLOCKED_COMMAND : ["blockedusers"]
+
+#sPEEDTEST
+SPEEDTEST_COMMAND : ["speedtest"]
+
+#Voice chat commands
+ACTIVEVC_COMMAND : ["activevoice", "activevc"]
+ACTIVEVIDEO_COMMAND : ["activevideo", "activev"]
+
+#Gban Commands
+GBAN_COMMAND : ["gban"]
+UNGBAN_COMMAND : ["ungban"]
+GBANNED_COMMAND : ["gbannedusers"]
