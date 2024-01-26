@@ -292,7 +292,7 @@ async def alive(client, message: Message):
 async def verify(client, message: Message):
     if await is_served_user(message.from_user.id):
         await message.reply_text(
-            text="😂 ᴅᴇᴀʀ ʏᴏᴜ ᴀʀᴇ ᴀʟʀᴇᴀᴅʏ ᴠᴇʀɪғɪᴇᴅ",
+            text="😂 kullanabilmek için 1 kereye mahsus verify komutuna tıklamanız yeterli iyi dinlemeler",
         )
         return
     await add_served_user(message.from_user.id)
