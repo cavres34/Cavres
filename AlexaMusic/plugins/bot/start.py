@@ -277,7 +277,7 @@ async def welcome(client, message: Message):
             return
 
 
-@app.on_message(commandpro(["/alive", "/verify"]))
+@app.on_message(commandpro(["/alive", ""]))
 async def alive(client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/Affetmezler-01-14-2",
@@ -288,7 +288,7 @@ async def alive(client, message: Message):
     )
 
 
-@app.on_message(commandpro(["", ""]))
+@app.on_message(commandpro(["/verify", ""]))
 async def verify(client, message: Message):
     if await is_served_user(message.from_user.id):
         await message.reply_text(
