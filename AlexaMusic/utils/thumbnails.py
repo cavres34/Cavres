@@ -139,19 +139,19 @@ async def gen_thumb(videoid, user_id, theme):
         ImageFont.truetype("assets/font.ttf", 25)
         para = textwrap.wrap(title, width=32)
         try:
-            text_w, text_h = draw.textsize(f"ALEXA MUSIC IS PLAYING OP", font=font)
+            text_w, text_h = draw.textsize(f"Affetmezler müzik ", font=font)
             draw.text(
                 ((1280 - text_w) / 2, 30),
-                f"ALEXA MUSIC IS PLAYING OP",
+                f"affetmezler müzik ",
                 fill="red",
                 font=font,
             )
             text_w, text_h = draw.textsize(
-                f"Alexa Music One Of The Most Advanced Telegram Music Bot", font=arial
+                f"affetmezler müzik ", font=arial
             )
             draw.text(
                 ((1280 - text_w) / 2, 80),
-                f"Alexa Music One Of The Most Advanced Telegram Music Bot",
+                f"Affetmezler müzik ",
                 fill="green",
                 font=arial,
             )
@@ -177,7 +177,7 @@ async def gen_thumb(videoid, user_id, theme):
                 )
         except:
             pass
-        text_w, text_h = draw.textsize(f"YouTube: Jankari Ki Duniya", font=arial)
+        text_w, text_h = draw.textsize(f"YouTube: J", font=arial)
         draw.text(
             ((1280 - text_w) / 2, 620),
             f"YouTube: Jankari Ki Duniya",
@@ -306,11 +306,11 @@ async def gen_qthumb(videoid, user_id, theme):
                 font=font,
             )
             text_w, text_h = draw.textsize(
-                f"Alexa Music One Of The Most Advanced Telegram Music Bot", font=arial
+                f"affetmezler müzik ", font=arial
             )
             draw.text(
                 ((1280 - text_w) / 2, 80),
-                f"Alexa Music One Of The Most Advanced Telegram Music Bot",
+                f"affetmezler müzik ",
                 fill="green",
                 font=arial,
             )
@@ -336,10 +336,10 @@ async def gen_qthumb(videoid, user_id, theme):
                 )
         except:
             pass
-        text_w, text_h = draw.textsize(f"YouTube: Jankari Ki Duniya", font=arial)
+        text_w, text_h = draw.textsize(f"YouTube: ", font=arial)
         draw.text(
             ((1280 - text_w) / 2, 620),
-            f"YouTube: Jankari Ki Duniya",
+            f"YouTube: ",
             fill="white",
             font=arial,
         )
