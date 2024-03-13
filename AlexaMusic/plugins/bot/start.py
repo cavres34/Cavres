@@ -277,29 +277,29 @@ async def welcome(client, message: Message):
             return
 
 
-@app.on_message(commandpro(["/alive", ""]))
+@app.on_message(commandpro(["/alive", "Alexa"]))
 async def alive(client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/eLzEmM-03-13",
-        caption=f"""━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ ʜᴇʟʟᴏ, Zeynep ...\n\n━━━━━━━━━━━━━━━━━━━━━━━━""",
+        photo=f"https://telegra.ph/Eski-11-29",
+        caption=f"""━━━━━━━━━━━━━━━━━━━━━━━━\n\n selam \n bebek 🌼 ..\n\n ben \n kelebek    : [nedersin bana yazmaya](https://t.me/yoodelidegilim)\n destek › : [siir kanalim](https://t.me/mamaklibirininruhu)\n › : [destek grubu](https://t.me//mamaklimekani)\n┗━━━━━━━━━━━━━━━━━┛\n\n💞 \n [sahip](https://t.me/yoodelidegilim) bence anladın ...\n\n umarım anladın""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("🌼 Zeynep 💮", url=f"https://t.me/sadecebotyeri")]]
+            [[InlineKeyboardButton("🌼 destek grubu 💮", url=f"https://t.me/mamaklimekani")]]
         ),
     )
 
 
-@app.on_message(commandpro(["/verify", ""]))
+@app.on_message(commandpro(["/verify", "alexaverification"]))
 async def verify(client, message: Message):
     if await is_served_user(message.from_user.id):
         await message.reply_text(
-            text="😂 kullanabilmek için 1 kereye mahsus verify komutuna tıklamanız yeterli iyi dinlemeler",
+            text="😂 sen zaten aktifleştirmişsin",
         )
         return
     await add_served_user(message.from_user.id)
     await message.reply_photo(
-        photo=f"https://te.legra.ph/eLzEmM-03-13",
-        caption=f"""━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ **ᴄᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴ** 🎉\n✪ ɴᴏᴡ ʏᴏᴜ ᴀʀᴇ zeynep ᴠᴇʀɪғɪᴇᴅ ᴍᴇᴍʙᴇʀ ɢᴏ ʙᴀᴄᴋ ᴀɴᴅ ᴇɴᴊᴏʏ ᴏᴜʀ sᴇʀᴠɪᴄᴇ ᴀɴᴅ ᴘʟᴀʏ ᴍᴜsɪᴄ 🌼 ..\n\n━━━━━━━━━━━━━━━━━━━━━━━━""",
+        photo=f"https://telegra.ph/yeni-verify-01-17",
+        caption=f"""aferin la\n\n✪ **aktifleştirme başarılı** 🎉\n✪ artık canının istediği gibi 🌼 ..\n━━━━━━━━━━━━━━━━━━━""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("🌼 zeynep 💮", url=f"https://t.me/sadecebotyeri")]]
+            [[InlineKeyboardButton("🌼 destek grubu 💮", url=f"https://t.me/mamaklimekani")]]
         ),
     )
