@@ -280,10 +280,10 @@ async def welcome(client, message: Message):
 @app.on_message(commandpro(["/alive", ""]))
 async def alive(client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/Affetmezler-01-14-2",
+        photo=f"https://te.legra.ph/eLzEmM-03-13",
         caption=f"""━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ ʜᴇʟʟᴏ, affetmezler ...\n\n━━━━━━━━━━━━━━━━━━━━━━━━""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("🌼 affetmezler sohbet 💮", url=f"https://t.me/affetmezler_sohbet")]]
+            [[InlineKeyboardButton("🌼 Zeynep 💮", url=f"https://t.me/sadecebotyeri")]]
         ),
     )
 
@@ -297,9 +297,9 @@ async def verify(client, message: Message):
         return
     await add_served_user(message.from_user.id)
     await message.reply_photo(
-        photo=f"https://telegra.ph/Affetmezler-01-14-2",
-        caption=f"""━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ **ᴄᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴ** 🎉\n✪ ɴᴏᴡ ʏᴏᴜ ᴀʀᴇ affetmezler ᴠᴇʀɪғɪᴇᴅ ᴍᴇᴍʙᴇʀ ɢᴏ ʙᴀᴄᴋ ᴀɴᴅ ᴇɴᴊᴏʏ ᴏᴜʀ sᴇʀᴠɪᴄᴇ ᴀɴᴅ ᴘʟᴀʏ ᴍᴜsɪᴄ 🌼 ..\n\n━━━━━━━━━━━━━━━━━━━━━━━━""",
+        photo=f"https://te.legra.ph/eLzEmM-03-13",
+        caption=f"""━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ **ᴄᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴ** 🎉\n✪ ɴᴏᴡ ʏᴏᴜ ᴀʀᴇ zeynep ᴠᴇʀɪғɪᴇᴅ ᴍᴇᴍʙᴇʀ ɢᴏ ʙᴀᴄᴋ ᴀɴᴅ ᴇɴᴊᴏʏ ᴏᴜʀ sᴇʀᴠɪᴄᴇ ᴀɴᴅ ᴘʟᴀʏ ᴍᴜsɪᴄ 🌼 ..\n\n━━━━━━━━━━━━━━━━━━━━━━━━""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("🌼 affetmezler sohbet 💮", url=f"https://t.me/affetmezler_sohbet")]]
+            [[InlineKeyboardButton("🌼 zeynep 💮", url=f"https://t.me/sadecebotyeri")]]
         ),
     )
