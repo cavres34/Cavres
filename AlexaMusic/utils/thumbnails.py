@@ -139,10 +139,10 @@ async def gen_thumb(videoid, user_id, theme):
         ImageFont.truetype("assets/font.ttf", 25)
         para = textwrap.wrap(title, width=32)
         try:
-            text_w, text_h = draw.textsize(f"affetmezler müzik ", font=font)
+            text_w, text_h = draw.textsize(f"zeynep müzik ", font=font)
             draw.text(
                 ((1280 - text_w) / 2, 30),
-                f"affetmezler müzik ",
+                f"zeynep müzik ",
                 fill="red",
                 font=font,
             )
@@ -151,7 +151,7 @@ async def gen_thumb(videoid, user_id, theme):
             )
             draw.text(
                 ((1280 - text_w) / 2, 80),
-                f"affetmezler müzik ",
+                f"zeynep müzik",
                 fill="green",
                 font=arial,
             )
@@ -306,11 +306,11 @@ async def gen_qthumb(videoid, user_id, theme):
                 font=font,
             )
             text_w, text_h = draw.textsize(
-                f"affetmezler müzik ", font=arial
+                f"zeynep müzik ", font=arial
             )
             draw.text(
                 ((1280 - text_w) / 2, 80),
-                f"affetmezler müzik ",
+                f"zeynep müzik ",
                 fill="green",
                 font=arial,
             )
