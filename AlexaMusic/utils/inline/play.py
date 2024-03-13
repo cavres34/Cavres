@@ -52,7 +52,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text=" sahip 💞", url=f"https://t.me/Kurucu_sahipp"
+                text=" sahip 💞", url=f"https://t.me/rahatsizetmeyiniz"
             ),
         ],
         [
@@ -60,7 +60,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup {videoid}|{chat_id}",
             ),
-            InlineKeyboardButton(text="bot destek 💌", url=f"https://t.me/affetmezler_sohbet"),
+            InlineKeyboardButton(text="bot destek 💌", url=f"https://t.me/sadecebotyeri"),
         ],
         [
             InlineKeyboardButton(
@@ -86,14 +86,14 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
-            InlineKeyboardButton(text="sahip 💞", url=f"https://t.me/Kurucu_sahipp"),
+            InlineKeyboardButton(text="sahip 💞", url=f"https://t.me/rahatsizetmeyiniz"),
         ],
         [
             InlineKeyboardButton(
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
-            InlineKeyboardButton(text="bot destek 💌", url=f"https://t.me/affetmezler_sohbet"),
+            InlineKeyboardButton(text="bot destek 💌", url=f"https://t.me/sadecebotyeri"),
         ],
     ]
     return buttons
@@ -109,14 +109,14 @@ def stream_markup(_, videoid, chat_id):
                 text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
-            InlineKeyboardButton(text="sahip 💞", url=f"https://t.me/Kurucu_sahipp"),
+            InlineKeyboardButton(text="sahip 💞", url=f"https://t.me/rahatsizetmeyiniz"),
         ],
         [
             InlineKeyboardButton(
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
-            InlineKeyboardButton(text="bot destek 💌", url=f"https://t.me/affetmezler_sohbet"),
+            InlineKeyboardButton(text="bot destek 💌", url=f"https://t.me/sadecebotyeri"),
         ],
     ]
     return buttons
