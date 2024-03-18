@@ -31,7 +31,7 @@ SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "乛eLzEmM🥀 🕊️⃝🦋⁪⁬𝙈𝙐𝙎𝙄𝘾")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "乛çavreş🥀 🕊️⃝🦋⁪⁬𝙈𝙐𝙎𝙄𝘾")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "6683031701").split()))
 
@@ -106,7 +106,7 @@ autoclean = []
 
 START_IMG_URL = getenv(
     "START_IMG_URL", 
-    "https://te.legra.ph/eLzEmM-03-13",
+    "https://te.legra.ph/%C3%87avre%C5%9F-m%C3%BCzik-03-18",
 )
 
 PING_IMG_URL = getenv(
