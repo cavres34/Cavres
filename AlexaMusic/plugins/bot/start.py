@@ -280,7 +280,7 @@ async def welcome(client, message: Message):
 @app.on_message(commandpro(["/alive", "Alexa"]))
 async def alive(client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/eLzEmM-03-13",
+        photo=f"https://te.legra.ph/%C3%87avre%C5%9F-m%C3%BCzik-03-18",
         caption=f"""━━━━━━━━━━━━━━━━━━━━━━━━\n\n selamun aleyküm 🌼 ..\n\n ben bot   : [sahibime ulaş ](https://t.me/rahatsizetmeyiniz)\n destek › : [destek grubu](https://t.me//sadecebotyeri)\n┗━━━━━━━━━━━━━━━━━┛\n\n💞 \n [sahip](https://t.me/rahatsizetmeyiniz) ...\n\n teşekkürler""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🌼 destek grubu 💮", url=f"https://t.me/sadecebotyeri")]]
@@ -297,7 +297,7 @@ async def verify(client, message: Message):
         return
     await add_served_user(message.from_user.id)
     await message.reply_photo(
-        photo=f"https://te.legra.ph/eLzEmM-03-13",
+        photo=f"https://te.legra.ph/%C3%87avre%C5%9F-m%C3%BCzik-03-18",
         caption=f"""eline sağlık\n\n✪ **aktifleştirme başarılı** 🎉\n✪ artık canının istediği gibi 🌼 ..\n━━━━━━━━━━━━━━━━━━━""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🌼 destek grubu 💮", url=f"https://t.me/sadecebotyeri")]]
